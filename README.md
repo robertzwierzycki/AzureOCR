@@ -6,3 +6,6 @@ OCR technology with Azure Document Intelligence
    - **On Windows**: You can download Poppler binaries from [here](http://blog.alivate.com.au/poppler-windows/). After downloading, extract the files and add the `bin` directory to your system's PATH environment variable.
    - **On MacOS**: You can install Poppler using Homebrew with the command `brew install poppler`.
    - **On Linux**: You can typically install Poppler using your distribution's package manager, for example, `sudo apt-get install poppler-utils` on Debian/Ubuntu.
+
+**Run generateSearchablePDF.py**
+`python generateSearchablePDF.py <input file path>`
