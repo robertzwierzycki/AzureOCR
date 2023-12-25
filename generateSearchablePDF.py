@@ -34,7 +34,7 @@ async def load_input_file(input_file: str) -> Union[List[Image.Image], ImageSequ
     elif input_file.lower().endswith((".tif", ".tiff", ".jpg", ".jpeg", ".png", ".bmp")):
         return ImageSequence.Iterator(Image.open(input_file))
     else:
-        sys.exit(f"Error: Unsupported file extension {input_file}")
+        sys.exit(f"Error: Unsupported file extension - {input_file}")
 
 
 async def run_ocr(input_file: str) -> AnalyzeResult:
