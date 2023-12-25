@@ -16,7 +16,7 @@ from azure.ai.formrecognizer.aio import DocumentAnalysisClient
 from azure.ai.formrecognizer import AnalyzeResult, DocumentWord
 
 
-# Open the JSON file and load data
+# Open the JSON file and load config data
 with open("config.json", "r") as file:
     config = json.load(file)
 
