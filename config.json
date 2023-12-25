@@ -1,0 +1,4 @@
+{
+    "DOCUMENT_INTELLIGENCE_URL": "<Your Document intelligence Service Endpoint>",
+    "DOCUMENT_INTELLIGENCE_KEY": "<Your Document intelligence Service Key>"
+}
